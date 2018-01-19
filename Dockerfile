@@ -4,4 +4,4 @@ LABEL maintainer="chend@vt.edu"
 RUN apt-get update && \
     apt-get install -y apt-utils && \
     apt-get update && \
-    apt-get install rsync
+    apt-get install -y rsync
