@@ -13,4 +13,4 @@ COPY 000-default_1.conf /etc/apache2/sites-enabled/000-default.conf
 RUN a2enmod ssl && \
     a2enmod rewrite
 
-CMD service apache2 start && tail -f /dev/null
+CMD tail -f /dev/null
