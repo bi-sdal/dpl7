@@ -16,3 +16,8 @@ Or you can directly run the command via `docker exec` via:
 ```bash
 docker exec -it <name of the drupal container> service apache2 start
 ```
+e.g.,
+
+```bash
+docker exec -it drupal7 service apache2 start
+```
